@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kidney Disease Prediction</title>
+    <style>
+        html{
+            background: linear-gradient(to bottom right,lightblue,white) no-repeat;
+            background-size: 100% 200%;
+            
+        }
+        td{
+            padding: 5px;
+        }
+        form{
+            background: transparent;
+        }
+        
+    </style>
+</head>
+<body>
+    <center>
+        <h2>Kidney Disease Detection</h2>
+        <form method="POST">
+            <table border="2">
+                <tr>
+                    <th colspan="2">Enter Your Data</th>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>
+                        <input type="text" placeholder="Your Age" name="age">
+                    </td>
+                </tr>
+                <tr>
+                    <td>BP</td>
+                    <td>
+                        <input type="text" placeholder="Blood Pressure" name="bp">
+                    </td>
+                </tr>
+                <tr>
+                    <td>SG</td>
+                    <td>
+                        <input type="text" placeholder="Specific Gravity" name="sg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>AL</td>
+                    <td>
+                        <input type="text" placeholder="Albumin" name="al">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>
+                        <input type="text" placeholder="Sugar" name="su">
+                    </td>
+                </tr>
+                <tr>
+                    <td>RBC</td>
+                    <td>
+                        <input type="radio" name="rbc" value="1"> normal <br>
+                        <input type="radio" name="rbc" value="0"> abnormal
+                    </td>
+                </tr>
+                <tr>
+                    <td>PC</td>
+                    <td>
+                        <input type="radio" name="pc" value="1"> normal <br>
+                        <input type="radio" name="pc" value="0"> abnormal
+                    </td>
+                </tr>
+                <tr>
+                    <td>pcc</td>
+                    <td>
+                        <input type="radio" name="pcc" value="1"> present <br>
+                        <input type="radio" name="pcc" value="0"> not present
+                    </td>
+                </tr>
+                <tr>
+                    <td>BA</td>
+                    <td>
+                        <input type="radio" name="ba" value="1"> present <br>
+                        <input type="radio" name="ba" value="0"> not present
+                    </td>
+                </tr>
+                <tr>
+                    <td>BGR</td>
+                    <td>
+                        <input type="text" placeholder="Blood Glucose Random" name="bgr">
+                    </td>
+                </tr>
+                <tr>
+                    <td>BU</td>
+                    <td>
+                        <input type="text" placeholder="Blood Urea" name="bu">
+                    </td>
+                </tr>
+                <tr>
+                    <td>SC</td>
+                    <td>
+                        <input type="text" placeholder="Serum Creatinine" name="sc">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sodium</td>
+                    <td>
+                        <input type="text" placeholder="Sodium" name="sod">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pot</td>
+                    <td>
+                        <input type="text" placeholder="Potassium" name="pot">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hemo</td>
+                    <td>
+                        <input type="text" placeholder="Hemoglobin" name="hemo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>PCV</td>
+                    <td>
+                        <input type="text" placeholder="Packed Cell Volume" name="pcv">
+                    </td>
+                </tr>
+                <tr>
+                    <td>WC</td>
+                    <td>
+                        <input type="text" placeholder="White Blood Cell Count" name="wc">
+                    </td>
+                </tr>
+                <tr>
+                    <td>RC</td>
+                    <td>
+                        <input type="text" placeholder="Red Blood Cell Count" name="rc">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Hyper Tension</td>
+                    <td>
+                        <input type="radio" name="htn" value="1"> yes <br>
+                        <input type="radio" name="htn" value="0"> no
+                    </td>
+                </tr>
+                <tr>
+                    <td>Diabetes mellitus</td>
+                    <td>
+                        <input type="radio" name="dm" value="1"> yes <br>
+                        <input type="radio" name="dm" value="0"> no
+                    </td>
+                </tr>
+                <tr>
+                    <td>Coronary Artery Disease</td>
+                    <td>
+                        <input type="radio" name="cad" value="1"> yes <br>
+                        <input type="radio" name="cad" value="0"> no
+                    </td>
+                </tr>
+                <tr>
+                    <td>Apetite</td>
+                    <td>
+                        <input type="radio" name="appet" value="1"> poor <br>
+                        <input type="radio" name="appet" value="0"> good
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pedal Edima</td>
+                    <td>
+                        <input type="radio" name="pe" value="1"> yes <br>
+                        <input type="radio" name="pe" value="0"> no
+                    </td>
+                </tr>
+                <tr>
+                    <td>Anemia</td>
+                    <td>
+                        <input type="radio" name="ane" value="1"> yes <br>
+                        <input type="radio" name="ane" value="0"> no
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </center>
+</body>
+</html>
